@@ -28,7 +28,7 @@ def get_line_num(i, line, number_lines, ignore_blank):
     return i, "% 6d  " % i
 
 
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser(description="Schrödinger's cat --"
             "concatenate and print files")
     parser.add_argument('files', metavar='file', nargs='*',
@@ -47,4 +47,5 @@ if __name__ == "__main__":
         with open(fname) as f:
             print_file(f, args.number_lines, args.ignore_blank)
 
-
+if __name__ == "__main__":
+    main()

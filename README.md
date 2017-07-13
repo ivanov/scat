@@ -1,6 +1,6 @@
 # Schrödinger's cat
 
-A `cat` clone which will may or may not print out about half of the lines.
+A `cat` clone which will print out about half of the lines.
 
 ## Features
 
