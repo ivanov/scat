@@ -13,7 +13,7 @@ except ImportError:
 
 setup(
     name='scat',
-    version='0.1.2',
+    version='0.1.3',
     py_modules=['scat'],
     license='BSD',
     author='Paul Ivanov',

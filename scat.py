@@ -48,4 +48,7 @@ def main():
             print_file(f, args.number_lines, args.ignore_blank)
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print()
