@@ -1,11 +1,13 @@
 # Schrödinger's cat
 
-`scat` is a `cat` clone which, for every line in the files passed to it, has 50/50 chance
-of printing that line.
+`scat` is a `cat` clone which, for every line in the files passed to it, has
+roughly a 50/50 chance -of printing that line. Oh, and it has kind of a crappy
+name...
 
 ## Features
 
-* Supports `-b` and `-n` flags. Numbers correspond to lines in the original file.
+* Supports line numbering with `-n` and `-b` flags. Numbers correspond to lines
+  in the original file.
 * Behaves just like `cat` when provided multiple files (line numbers reset)
 * Behaves just like `cat` when run without arguments (uses stdin)
 
@@ -19,7 +21,7 @@ If you run:
 scat -b zen_of_python.txt
 ```
 
-Output might be:
+the output might be:
 ```
      5  Complex is better than complicated.
      7  Sparse is better than dense.
@@ -30,7 +32,7 @@ Output might be:
     17  Although never is often better than *right* now.
 ```
 
-but it might also be:
+but it could also be:
 ```
      1  The Zen of Python, by Tim Peters
 
