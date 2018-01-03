@@ -1,7 +1,7 @@
 # Schrödinger's cat
 
 `scat` is a `cat` clone which, for every line in the files passed to it, has
-roughly a 50/50 chance -of printing that line. Oh, and it has kind of a crappy
+roughly a 50/50 chance of printing that line. Oh, and it has kind of a crappy
 name...
 
 ## Features
