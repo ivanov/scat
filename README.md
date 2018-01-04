@@ -7,7 +7,7 @@ name...
 ## Features
 
 * Supports line numbering with `-n` and `-b` flags. Numbers correspond to lines
-  in the original file.
+  in the original file
 * Behaves just like `cat` when provided multiple files (line numbers reset)
 * Behaves just like `cat` when run without arguments (uses stdin)
 
